@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:layout_marginHorizontal="48dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="Welcome to Home Page"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="32sp"
+            android:layout_marginHorizontal="32dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_explore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explore Destination"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppinsbold"
+            android:textAllCaps="false"
+            android:layout_marginTop="50dp"
+            style="@style/button"
+            />
+    </LinearLayout>
+</FrameLayout>

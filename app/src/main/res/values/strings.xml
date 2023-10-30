@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">tugas-pertemuan9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="jenis_tiket">
+        <item>First Class Ticket</item>
+        <item>Business Class Ticket</item>
+        <item>Economy Class Ticket</item>
+    </string-array>
+
+</resources>
